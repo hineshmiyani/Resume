@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hinesh Miyani Resume</title>
+    <!-- Import Poppins font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Use Poppins font */
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #ffffff;
+        color: #333;
+        line-height: 1.6;
+        font-size: 16px;
+      }
+
+      .resume-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 1200px;
+        margin: 2rem auto;
+        background-color: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      }
+
+      /* Header with user-specified background */
+      header {
+        background: #f9f9f9;
+        color: #333;
+        padding: 1.5rem;
+        text-align: center;
+      }
+      header h1 {
+        margin-bottom: 0.5rem;
+        font-size: 2rem;
+        color: #0e6cc2; /* Title color */
+      }
+      header p {
+        margin-bottom: 0.4rem;
+        font-size: 1rem;
+      }
+      header a {
+        color: #0e6cc2;
+        margin: 0 0.5rem;
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      /* 2-column layout */
+      .content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .left-column,
+      .right-column {
+        flex: 1;
+        min-width: 300px;
+        padding: 2rem;
+      }
+
+      .left-column {
+        background: #fff;
+        border-right: 1px solid #ececec;
+      }
+
+      .right-column {
+        background: #fff;
+      }
+
+      /* Titles with user-specified color */
+      h2 {
+        margin-bottom: 1rem;
+        color: #0e6cc2;
+        font-size: 1.4rem;
+        border-bottom: 2px solid #0e6cc2;
+        padding-bottom: 0.3rem;
+        display: inline-block;
+        font-weight: 600;
+      }
+
+      h3 {
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+        color: #0e6cc2;
+        font-size: 1.2rem;
+      }
+
+      ul {
+        margin-left: 1.5rem;
+        margin-bottom: 1rem;
+        list-style: square;
+      }
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+
+      .tech-stack {
+        font-style: italic;
+        color: #666;
+        margin-bottom: 1rem;
+      }
+
+      .section-content p {
+        margin-bottom: 1rem;
+        line-height: 1.5;
+      }
+
+      .section-content {
+        margin-top: 1rem;
+      }
+
+      /* Responsiveness */
+      @media (max-width: 768px) {
+        header p {
+          font-size: 0.9rem;
+        }
+        .left-column,
+        .right-column {
+          padding: 1rem;
+        }
+        h2 {
+          font-size: 1.2rem;
+        }
+        h3 {
+          font-size: 1rem;
+        }
+        header h1 {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="resume-container">
+      <header>
+        <h1>Hinesh Miyani</h1>
+        <p>Frontend Developer | Web3 &amp; Full-Stack Enthusiast</p>
+        <p>
+          Surat, Gujarat |
+          <a href="mailto:hineshmiyani@gmail.com">hineshmiyani@gmail.com</a> |
+          <a href="tel:+919664796448">+91 96647 96448</a>
+        </p>
+        <p>
+          <a href="https://github.com/" target="_blank">GitHub</a> |
+          <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+        </p>
+      </header>
+
+      <div class="content">
+        <!-- Left Column -->
+        <div class="left-column">
+          <h2>Professional Summary</h2>
+          <div class="section-content">
+            <p>
+              Frontend Developer with 3+ years of experience creating
+              responsive, scalable applications. Proficient in modern JavaScript
+              frameworks and Web3 capabilities, striving to build intuitive user
+              interfaces and champion best practices in collaboration with
+              cross-functional teams.
+            </p>
+          </div>
+
+          <h2>Work Experiences</h2>
+
+          <!-- Web3 Frontend Developer -->
+          <h3>Web3 Frontend Developer (Freelancer)</h3>
+          <p><strong>Tribul</strong> | Dec 2022 – Present</p>
+          <ul>
+            <li>
+              Built and launched <em>Tribul's NFT Auction House</em> platform
+              with Next.js, TypeScript, and Web3 integrations, processing over
+              $600K in NFT sales.
+            </li>
+            <li>
+              Developed robust interactions between user wallets and multiple
+              smart contracts (Ranked Auctions, Zora Auction House) using
+              Wagmi.js for secure transactions.
+            </li>
+            <li>
+              Implemented a Gnosis Safe Multisig Wallet solution to bolster
+              on-chain security and streamlined bidder workflows.
+            </li>
+            <li>
+              Collaborated with designers and smart contract engineers to
+              optimize UI flows and ensure a frictionless bidding experience.
+            </li>
+          </ul>
+          <p class="tech-stack">
+            <strong>Tech Stack:</strong> Next.js, React, Rematch (Redux),
+            TypeScript, React Query, Supabase, Wagmi.js, Ethers.js, Tailwind CSS
+          </p>
+
+          <!-- Frontend Developer: RĀNA DEV -->
+          <h3>Frontend Developer (Full-Time)</h3>
+          <p><strong>RĀNA DEV</strong> | Aug 2023 – May 2024</p>
+          <ul>
+            <li>
+              Oversaw the frontend development for Park Avenue Finance using
+              Next.js, TypeScript, and GraphQL, resulting in a 15% increase in
+              new loan applications upon launch.
+            </li>
+            <li>
+              Implemented Aware Auth for a seamless user onboarding process and
+              integrated a robust ACH payment system to simplify payments.
+            </li>
+            <li>
+              Delivered a Merit Credit flow for loan applications, leveraging
+              real-time validations with React Hook Form and Yup.
+            </li>
+            <li>
+              Gathered requirements from stakeholders, contributing to product
+              roadmaps and efficiently managing feature rollouts.
+            </li>
+          </ul>
+          <p class="tech-stack">
+            <strong>Tech Stack:</strong> Next.js, React, TypeScript, React Hook
+            Form, Yup, GraphQL
+          </p>
+
+          <!-- Frontend Developer: Codexive -->
+          <h3>Frontend Developer (Full-Time)</h3>
+          <p><strong>Codexive Solutions</strong> | Aug 2021 – Nov 2022</p>
+          <ul>
+            <li>
+              Led the redesign of critical components for a UK-based fundraising
+              application using Angular, significantly improving site
+              navigability and donor engagement.
+            </li>
+            <li>
+              Developed and maintained multiple React-based platforms for Korean
+              clients, including a sports registration system and a community
+              forum, reducing average page load times by 20%.
+            </li>
+            <li>
+              Utilized Redux and RxJS for state management and data flow,
+              enhancing performance and code maintainability across projects.
+            </li>
+          </ul>
+          <p class="tech-stack">
+            <strong>Tech Stack:</strong> Next.js, React, Angular, Redux, RxJS,
+            Tailwind CSS
+          </p>
+
+          <h2>Education</h2>
+          <div class="section-content">
+            <p>
+              <strong
+                >Bachelor’s in Electronics &amp; Communication
+                Engineering</strong
+              >
+            </p>
+            <p>Gujarat Technological University | 2018 – 2022</p>
+            <p><strong>CGPA:</strong> 8.59 / 10</p>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="right-column">
+          <h2>Skills</h2>
+          <div class="section-content">
+            <p>
+              <strong>Frontend Development:</strong> HTML, CSS, JavaScript,
+              TypeScript, React, Next.js, Redux, Redux Toolkit, React Query
+            </p>
+            <p>
+              <strong>Backend Development:</strong> Node.js, Express.js, Prisma,
+              PostgreSQL, Supabase, Firebase
+            </p>
+            <p>
+              <strong>Web3 Development:</strong> Ether.js, Wagmi.js, UseDapp,
+              Solidity (Familiar)
+            </p>
+            <p>
+              <strong>UI/UX Frameworks &amp; Tools:</strong> Material-UI,
+              Tailwind CSS, Styled Components, Shadcn, Figma
+            </p>
+            <p>
+              <strong>Dev Tools &amp; Processes:</strong> Git, Docker, Nginx
+              RTMP Module, VS Code, NodeMailer, Passport.js, Eslint, Prettier
+            </p>
+          </div>
+
+          <h2>Personal Projects</h2>
+
+          <!-- Hyperstream -->
+          <h3>Hyperstream (In Progress) – Live Video Streaming Platform</h3>
+          <ul>
+            <li>
+              Developing a scalable platform for live video streaming with low
+              latency using Nginx RTMP Module and Docker containers.
+            </li>
+            <li>
+              Creating a responsive frontend in Next.js, leveraging Shadcn and
+              Tailwind CSS for polished design.
+            </li>
+            <li>
+              Implementing secure backend architecture with Node.js, Express,
+              Prisma, and PostgreSQL to handle real-time stream data.
+            </li>
+          </ul>
+          <p class="tech-stack">
+            <strong>Tech Stack:</strong> Next.js, Node.js, Prisma, PostgreSQL,
+            React Query, Tailwind CSS
+          </p>
+
+          <!-- Strawberry AI -->
+          <h3>Strawberry AI – Text Paraphrasing Tool</h3>
+          <ul>
+            <li>
+              Built a paraphrasing tool using the OpenAI API to correct grammar,
+              improve fluency, and rephrase text.
+            </li>
+            <li>
+              Developed a minimalistic frontend with Next.js, React, and
+              TypeScript for an efficient user experience.
+            </li>
+            <li>
+              Implemented Firebase for authentication and data persistence,
+              ensuring quick and reliable responses.
+            </li>
+          </ul>
+          <p class="tech-stack">
+            <strong>Tech Stack:</strong> Next.js, OpenAI API, Firebase,
+            TypeScript
+          </p>
+
+          <!-- Pakit V2 -->
+          <h3>Pakit V2 – Multisignature Wallet</h3>
+          <ul>
+            <li>
+              Architected a decentralized wallet application on the Goerli test
+              network, supporting multisig transactions.
+            </li>
+            <li>
+              Integrated Safe Core SDK for secure wallet configurations and
+              simplified user experience around multi-party approvals.
+            </li>
+          </ul>
+          <p class="tech-stack">
+            <strong>Tech Stack:</strong> Next.js, Safe Core SDK, TypeScript
+          </p>
+
+          <!-- Cinephile -->
+          <h3>Cinephile – AI-Powered Movie Database</h3>
+          <ul>
+            <li>
+              Developed a voice-enabled movie discovery platform with Alan AI,
+              providing easy browsing and recommendations.
+            </li>
+            <li>
+              Leveraged TMDB API for dynamic data, including advanced filtering
+              and user-personalized suggestions.
+            </li>
+          </ul>
+          <p class="tech-stack">
+            <strong>Tech Stack:</strong> React, Redux Toolkit, Alan AI, TMDB API
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
