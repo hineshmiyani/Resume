@@ -4,10 +4,13 @@
   box-sizing: border-box;
 }
 
-/* Use Poppins font */
 body {
-  /* font-family: "Poppins", sans-serif; */
-  font-family: "Ubuntu", serif;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  /* font-family: "Open Sans", Arial, sans-serif; */
+  /* font-family: "Roboto", Arial, sans-serif; */
+  /* font-family: "Poppins", system-ui, sans-serif; */
+  /* font-family: "Helvetica", Arial, sans-serif; */
+  /* font-family: "Calibri", "Segoe UI", sans-serif; */
   background-color: #ffffff;
   color: #333;
   line-height: 1.6;
