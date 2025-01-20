@@ -6,8 +6,12 @@
 
 /* Use Poppins font by default */
 body {
-  /* font-family: "CMU Serif", serif; */
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  /* font-family: "Open Sans", Arial, sans-serif; */
+  /* font-family: "Roboto", Arial, sans-serif; */
+  /* font-family: "Poppins", system-ui, sans-serif; */
+  /* font-family: "Helvetica", Arial, sans-serif; */
+  /* font-family: "Calibri", "Segoe UI", sans-serif; */
   background-color: #ffffff;
   color: #333;
   line-height: 1.6;
@@ -17,9 +21,9 @@ body {
 
 /* Container */
 .resume-container {
-  max-width: 1340px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 3rem;
+  padding: 4rem 5rem;
   background-color: #ffffff;
   border: 3px solid #000000;
 }
@@ -27,7 +31,7 @@ body {
 /* Header */
 header {
   /* background: #f9f9f9; */
-  padding: 1.5rem;
+  /* padding: 1.5rem; */
   text-align: center;
   color: #333;
   /* border-radius: 8px; */
@@ -63,12 +67,13 @@ h2 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   color: #000000;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   border-bottom: 2px solid #000000;
   padding-bottom: 0.3rem;
   display: inline-block;
   font-weight: 600;
   width: 100%;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -80,18 +85,18 @@ h3 {
 }
 
 section {
-  margin-bottom: 1.5rem;
+  /* margin-bottom: 1.5rem; */
 }
 
 ul {
   margin-left: 1.5rem;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   list-style: square;
 }
 
-ul li {
+/* ul li {
   margin-bottom: 0.5rem;
-}
+} */
 
 /* Project Links */
 .project-links a {
@@ -108,10 +113,10 @@ ul li {
 
 /* Tech Stack */
 .tech-stack {
-  font-style: italic;
-  font-weight: 500;
-  color: #666;
-  margin-bottom: 1rem;
+  /* font-style: italic; */
+  font-weight: 400;
+  /* color: #666; */
+  /* margin-bottom: 1rem; */
 }
 
 /* Responsive Adjustments */
